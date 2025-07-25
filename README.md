@@ -12,6 +12,12 @@ The model was trained for 4 epochs and achieved a peak validation accuracy of 43
 Used a DeBERTaV3 model using the **Shared Weight strategy**, typically used in multiple-choice QA and it allows the model to jointly process both responses with shared context, capturing comparative nuances effectively.The model was trained for 7 epochs and achieved a peak validation accuracy of 48.13% 
 
 
+<img width="964" height="546" alt="Screenshot 2025-07-24 at 9 40 26 PM" src="https://github.com/user-attachments/assets/8a65ddbb-c9e0-44a3-a46d-705419527539" />
+
+
+This architecture was chosen and iteratively refined to capture the nuanced relative preference between two semantically rich LLM responses.
+
+
 # Challenges i'm currently facing:
 While DeBERTa-v3-small performed well relative to its size, capturing subtle nuances in human preference remains a significant challenge (this is borderline irritating). 
 The prompt-response pairs in this competition often involve fine-grained differences in tone, reasoning, factual correctness, or stylistic fluency.
