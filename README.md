@@ -18,7 +18,8 @@ Used a DeBERTaV3 model using the **Shared Weight strategy**, typically used in m
 <img width="964" height="546" alt="Screenshot 2025-07-24 at 9 40 26 PM" src="https://github.com/user-attachments/assets/8a65ddbb-c9e0-44a3-a46d-705419527539" />
 
 
-This architecture was chosen and iteratively refined to capture the nuanced relative preference between two semantically rich LLM responses.
+This architecture was iteratively refined to capture the nuanced relative preference between two semantically rich LLM responses. 
+Cool fact: You can extract your model and visualize the architecture here: https://netron.app/
 
 
 # Challenges i'm currently facing:
