@@ -8,14 +8,9 @@ My first attemot is using a fine-tuned deberta-v3-small model using Hugging Face
 The model was trained for 4 epochs and achieved a peak validation accuracy of 43.38% 
 (*clearly* needs more training & tweaking), outperforming random and naive baselines.
 
-<img width="610" height="474" alt="accuracy" src="https://github.com/user-attachments/assets/9b5f39f5-4c39-4ad2-93fd-312fcd2299ac" />
-<img width="600" height="474" alt="loss" src="https://github.com/user-attachments/assets/4f16503a-4fd5-4b68-8dd6-04753bb383e1" />
+# UPDATE (notebook 2):
+Used a DeBERTaV3 model using the **Shared Weight strategy**, typically used in multiple-choice QA and it allows the model to jointly process both responses with shared context, capturing comparative nuances effectively.The model was trained for 7 epochs and achieved a peak validation accuracy of 48.13% 
 
-
-
-As shown in the figure above, validation accuracy steadily increased during training, peaking at 43.38% around step 19,500 (epoch 3). 
-This reflects the model’s ability to generalize preference patterns learned from the prompt-response pairs. 
-The slight dip in epoch 4 is where i see overfitting started to surge, so right now, best-performing checkpoint is likely from epoch 3.
 
 # Challenges i'm currently facing:
 While DeBERTa-v3-small performed well relative to its size, capturing subtle nuances in human preference remains a significant challenge (this is borderline irritating). 
