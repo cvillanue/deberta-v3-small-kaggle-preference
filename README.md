@@ -1,6 +1,9 @@
 
 <img width="1200" height="480" alt="Deberta_Kaggle" src="https://github.com/user-attachments/assets/58560767-6cb5-49f8-9f58-23c79256c100" />
 
+# Kaggle Rank: 82/331 🏆 
+Officially ranked among the top 100 with a Kaggle score of 1.031 (07/2025)
+
 # deberta-v3-small-kaggle-preference
 
 This project is an ongoing trial & error for the LLM Preference Prediction Kaggle competition, where the goal is to predict which of two large language model responses a human would prefer, given a prompt. This is framed as a 3-way classification problem: choose between model_a, model_b, or tie.
